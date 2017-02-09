@@ -23,6 +23,26 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "nodejs-ex", ".", "{ED00EA48
 		SlnRelativePath = "..\nodejs-ex\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "node-again", "..\", "{A32E8A72-FD5C-4753-93CA-4F7F5328F4CF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62646"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\node-again\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62646\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62646"
+		Release.AspNetCompiler.PhysicalPath = "..\..\node-again\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62646\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62646"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +50,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{ED00EA48-72EB-4899-AB58-81A625AAD979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED00EA48-72EB-4899-AB58-81A625AAD979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32E8A72-FD5C-4753-93CA-4F7F5328F4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32E8A72-FD5C-4753-93CA-4F7F5328F4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
